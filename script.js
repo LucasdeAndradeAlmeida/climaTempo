@@ -39,6 +39,8 @@ async function searchCity(city) {
     document.querySelector(".previsão").innerHTML = "";
     document.querySelector(".humidity").innerHTML = "";
   }
+
+    document.querySelector("input").value = "";
 }
 
 const input = document.querySelector('input');
